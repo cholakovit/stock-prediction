@@ -1,6 +1,12 @@
+TASK: A market research and investment support team wants to anticipate short-, medium-, and monthly movement patterns for a major publicly traded company so they can improve planning, compare likely outcomes across time horizons, and support faster, more consistent decisions around timing, risk awareness, and portfolio discussion priorities.
+
+------------------------------------------------------------
+
 ## Goal
 
 Learn a sequence model (LSTM) on historical daily prices for one liquid symbol (e.g. AAPL), then forecast cumulative log-returns at three horizons: 1 trading day, 5 trading days (~week), 21 trading days (~month). Horizons are defined by **trading-day offsets**, not calendar months.
+
+**Repository:** [github.com/cholakovit/stock-prediction](https://github.com/cholakovit/stock-prediction)
 
 ## Inputs
 
